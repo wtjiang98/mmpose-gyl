@@ -125,6 +125,10 @@ docs_zh-CN/papers/*.md
 docs_zh-CN/datasets.md
 docs_zh-CN/modelzoo.md
 
+/vis_results
+/npy_out
+/ActionDataset-1125
+
 !tests/data/**/*.pkl
 !tests/data/**/*.pkl.json
 !tests/data/**/*.log.json

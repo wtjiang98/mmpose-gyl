@@ -143,4 +143,4 @@ data = dict(
         pipeline=test_pipeline,
         dataset_info={{_base_.dataset_info}}),
 )
-load_from = "/mnt/data3/gyl/mmclassification/work_dirs/resnetv1d10_b32x8_imagenet/epoch_72.pth"
+#load_from = "/mnt/data3/gyl/mmclassification/work_dirs/resnetv1d10_b32x8_imagenet/epoch_72.pth"

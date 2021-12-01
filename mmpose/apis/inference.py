@@ -96,7 +96,6 @@ def _box2cs(cfg, box):
         - np.ndarray[float32](2,): Scale of the bbox w & h.
     """
     x, y, w, h = box[:4]
-    print("_box2cs:",x, y, w, h )
     input_size = cfg.data_cfg['image_size']
     aspect_ratio = input_size[0] / input_size[1]
     center = np.array([x + w * 0.5, y + h * 0.5], dtype=np.float32)
